@@ -1,0 +1,11 @@
+autopep8==1.6.0
+flask-api-key==0.1.7   
+flask-bcrypt==1.0.1    
+flask-login==0.6.2     
+flask-sqlalchemy==3.0.3       
+librosa==0.7.0
+login==0.0.6
+pysocks==1.7.1
+setuptools-rust==1.5.2
+twilio==7.16.4
+wincertstore==0.2

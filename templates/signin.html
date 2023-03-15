@@ -1,0 +1,119 @@
+{% extends 'base.html'%} 
+{%block head %}
+</head>
+<nav class="navbar">
+  <a class="navbar-brand"><img src="{{ images }}" alt="" height="30px" /></a>
+  <a href="#" class="toggle-button">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+  </a>
+
+  <div class="navbar-links">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="courses">Courses</a></li>
+      <li>
+        <a
+          href="https://www.youtube.com/channel/UCYSgyUIpL24MvXCKU8RRcRA/videos"
+          target="_blank"
+          >Tutorials</a
+        >
+      </li>
+      <li><a href="http://felixsam10.pythonanywhere.com/blogs">Blog</a></li>
+      
+    </ul>
+  </div>
+</nav>
+<title>Tech Watt</title>
+{%endblock %}
+
+{%block body %}
+</div style="display: grid; place-items: center;">
+<form action="/signin" method="post">
+  <h1 style="display: grid;place-items: center; margin: 0px; margin-top: 0px;margin-bottom: 0px;" class="h3 mb-3 fw-normal">Message Us</h1>
+    <textarea style="display: grid;place-items: center;" class="form-control" rows="2" name="email" required></textarea>
+    <br>
+  <input type="submit" style="margin-left: 40%; display: grid; place-items: center;"  class="btn btn-primary" value="Send"> 
+</form>
+</div>
+<br>
+
+
+<div
+  class="container"
+  style="background-color: #3c3b3b; color: white; border-radius: 5px"
+>
+  <div
+    style="
+      display: grid;
+      place-items: center;
+      background-color: #3c3b3b;
+      text-decoration: none;
+    "
+  >
+    <a
+      style="
+        text-decoration: none;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 10px;
+        list-style: none;
+        color: white;
+      "
+      href="mailto:felixsam922@gmail.com"
+      >Email Us</a
+    >
+  </div>
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item">
+        <a href="/" class="nav-link px-2 text-muted">Home</a>
+      </li>
+      <li class="nav-item">
+        <a href="courses" class="nav-link px-2 text-muted">Courses</a>
+      </li>
+      <li class="nav-item">
+        <a
+          href="https://www.youtube.com/channel/UCYSgyUIpL24MvXCKU8RRcRA/videos"
+          class="nav-link px-2 text-muted"
+          target="_blank"
+          >Tutorials</a
+        >
+      </li>
+      <li class="nav-item">
+        <a href="/" class="nav-link px-2 text-muted">Home</a>
+      </li>
+      <li class="nav-item">
+        <a
+          href="http://felixsam10.pythonanywhere.com/blogs"
+          class="nav-link px-2 text-muted"
+          >Blog</a
+        >
+      </li>
+    </ul>
+    <p class="text-center text-muted">&copy; 2023 TECH WATT, Inc</p>
+  </footer>
+</div>
+
+<div style="display: grid; place-items: center">
+  <a
+    style="
+      list-style: none;
+      text-decoration: none;
+      color: gray;
+      font-weight: bold;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    "
+    class="back-to-top"
+    href="#"
+    >back to top</a
+  >
+</div>
+
+
+
+  
+</body>
+</html>
+  {%endblock %}

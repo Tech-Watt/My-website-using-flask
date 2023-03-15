@@ -1,0 +1,402 @@
+{% extends 'base.html'%} {%block head %}
+<!-- <a class="navbar-brand"><img src="{{ images }}" alt="" height="30px" /></a> -->
+
+<nav class="navbar">
+  <a class="navbar-brand"><img src="{{ images }}" alt="" height="30px" /></a>
+  <a href="#" class="toggle-button">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+  </a>
+
+  <div class="navbar-links">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="courses">Courses</a></li>
+      <li>
+        <a
+          href="https://www.youtube.com/channel/UCYSgyUIpL24MvXCKU8RRcRA/videos"
+          target="_blank"
+          >Tutorials</a
+        >
+      </li>
+      <li><a href="http://felixsam10.pythonanywhere.com/blogs">Blog</a></li>
+      <li><a href="signin">Message Us</a></li>
+    </ul>
+  </div>
+</nav>
+
+<title>Tech Watt</title>
+{%endblock%} {%block body%}
+<br />
+
+<div class="image" style="margin-top: 0px; margin-bottom: 0px">
+  <img src="{{ image1 }}" alt="" width="100% " height="70%" />
+</div>
+
+<div
+  style="
+    display: grid;
+    place-items: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  "
+>
+  <h3
+    style="
+      font-size: medium;
+      font-weight: bold;
+      color: gray;
+      background-color: rgb(255, 255, 255);
+      border-radius: 7px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    "
+  >
+    Computer Vision and AI Zone
+  </h3>
+</div>
+
+<div
+  class="container text-justify"
+  style="height: fit-content; border-color: aqua"
+>
+  <div class="row">
+    <div class="col">
+      <p
+        style="
+          font-size: 4px;
+          word-wrap: break-word;
+          background-color: rgb(158, 161, 158);
+          color: var(--e-global-color-secondary);
+          border-radius: 5px;
+          padding: 5px;
+        "
+      >
+        Computer vision is a field of artificial intelligence and computer
+        science that focuses on enabling computers to interpret and understand
+        digital images and videos. It involves the development of algorithms and
+        techniques to analyze, process, and extract useful information from
+        digital images and videos, such as object recognition, face detection,
+        tracking, and image restoration.Computer vision has many practical
+        applications, including autonomous vehicles and many more.
+      </p>
+    </div>
+    <div class="col">
+      <video
+        style="margin-top: 0px; object-fit: contain"
+        width="100%"
+        height="80%"
+        autoplay
+        muted
+      >
+        <source src="{{ video }}" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <div class="col" style="font-size: smaller">
+      <p
+        style="
+          font-size: 4px;
+          word-wrap: break-word;
+          background-color: rgb(158, 161, 158);
+          color: var(--e-global-color-secondary);
+          border-radius: 5px;
+          padding: 5px;
+        "
+      >
+        Artificial Intelligence (AI) is a branch of computer science that
+        involves the development of computer systems that can perform tasks that
+        typically require human intelligence, such as visual perception, speech
+        recognition, decision-making, and language translation. AI systems use
+        machine learning algorithms to analyze data, learn from patterns, and
+        make predictions or decisions based on the learned patterns. AI is the
+        future of humanity.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div
+  style="
+    display: grid;
+    place-items: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  "
+>
+  <h3
+    style="
+      font-size: medium;
+      font-weight: bold;
+      color: gray;
+      background-color: rgb(255, 255, 255);
+      border-radius: 7px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    "
+  >
+    Some of our Projects
+  </h3>
+</div>
+
+<div class="container" style="height: fit-content; margin-bottom: 20px">
+  <div class="row">
+    <div class="col" style="object-fit: fill">
+      <a href="https://youtu.be/HC62SIIbGyo">
+        <img src="{{u1}}" width="100%" />
+      </a>
+    </div>
+    <div class="col" style="object-fit: fill">
+      <a href="https://youtu.be/5YqSP1aNjck">
+        <img src="{{u2}}" width="100%" />
+      </a>
+    </div>
+    <div class="col" style="object-fit: fill">
+      <a href="https://youtu.be/fmolIrpXRy0">
+        <img src="{{u3}}" width="100%" />
+      </a>
+    </div>
+    <div class="col" style="object-fit: fill">
+      <a href="https://youtu.be/JDzSYEr05Qg">
+        <img src="{{u4}}" width="100%" />
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="container" style="height: fit-content">
+  <div class="row">
+    <div class="col" style="object-fit: cover">
+      <a href="https://youtu.be/jV1yvnmRxGA">
+        <img src="{{u5}}" width="100%" />
+      </a>
+    </div>
+    <div class="col" style="object-fit: cover">
+      <a href="https://youtu.be/4jAJGaxykIY">
+        <img src="{{u6}}" width="100%" />
+      </a>
+    </div>
+    <div class="col" style="object-fit: cover">
+      <a href="https://youtu.be/mKTmh4eM_Uk">
+        <img src="{{u7}}" width="100%" />
+      </a>
+    </div>
+    <div class="col" style="object-fit: cover">
+      <a href="https://youtu.be/gIAokA22jjk">
+        <img src="{{u8}}" width="100%" />
+      </a>
+    </div>
+  </div>
+</div>
+
+<div
+  style="
+    display: grid;
+    place-items: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  "
+  id="about"
+>
+  <h3
+    style="
+      font-size: medium;
+      font-weight: bold;
+      color: gray;
+      background-color: rgb(255, 255, 255);
+      border-radius: 7px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    "
+  >
+    About Tech Watt
+  </h3>
+</div>
+
+<div class="about-section">
+  <p class="text-justify">
+    Welcome to my website! I am a dedicated instructor with extensive experience
+    in teaching computer vision, AI, robotics, Python programming, and
+    electronics. My passion for these subjects has led me to create this
+    platform to share my knowledge and help others learn. I have been teaching
+    for several years, and I have had the opportunity to work with students of
+    different ages and levels of expertise. My goal is to make complex topics
+    easy to understand by breaking them down into manageable pieces, and
+    creating engaging learning experiences that make the material come alive. My
+    approach to teaching is hands-on and project-based. I believe that the best
+    way to learn is by doing, so I encourage my students to work on real-world
+    projects that apply the concepts they learn in class. I also prioritize
+    creating a positive and supportive learning environment, where students feel
+    comfortable asking questions and sharing their ideas. Whether you are just
+    starting out or looking to deepen your understanding of these fascinating
+    subjects, I am here to help. Thank you for considering me as your
+    instructor, and I look forward to working with you!
+  </p>
+</div>
+
+<div
+  style="
+    display: grid;
+    place-items: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  "
+>
+  <h3
+    style="
+      font-size: medium;
+      font-weight: bold;
+      color: gray;
+      background-color: rgb(255, 255, 255);
+      border-radius: 7px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    "
+  >
+    CEO of Tech Watt
+  </h3>
+</div>
+
+<div class="about-ceo">
+  <p class="text-justify">
+    Hello, I'm Felix Sam Nanor, CEO of Tech Watt. As an experienced educator
+    specializing in computer vision, AI, robotics, Python programming, and
+    electronics, I am passionate about creating engaging learning experiences
+    and helping students develop practical skills. Thank you for visiting my
+    website.
+  </p>
+</div>
+
+<div
+  style="
+    display: grid;
+    place-items: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  "
+>
+  <h3
+    style="
+      font-size: medium;
+      font-weight: bold;
+      color: gray;
+      background-color: rgb(255, 255, 255);
+      border-radius: 7px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    "
+  >
+    Follow Us
+  </h3>
+</div>
+
+<center>
+  <!-- Add font awesome icons -->
+  <a
+    href="https://www.linkedin.com/in/felix-nanor-4599b2204"
+    target="_blank"
+    class="fa fa-linkedin-square"
+  ></a>
+  <a
+    href="https://web.facebook.com/CodiTechs"
+    target="_blank"
+    class="fa fa-facebook"
+  ></a>
+  <a
+    href="https://www.youtube.com/@tech_watt"
+    target="_blank"
+    class="fa fa-youtube-square"
+  ></a>
+  <a
+    href="https://instagram.com/tech_watt?r=nametag"
+    target="_blank"
+    class="fa fa-instagram"
+  ></a>
+  <a
+    href="https://wa.me/qr/2M5XKAVIEOBEN1"
+    target="_blank"
+    class="fa fa-whatsapp"
+  ></a>
+  <a
+    href="https://t.me/Felix_Sam_Nanor"
+    target="_blank"
+    class="fa fa-telegram"
+  ></a>
+  <a
+    href="https://github.com/Tech-Watt"
+    target="_blank"
+    class="fa fa-github-square"
+  ></a>
+</center>
+
+<div
+  class="container"
+  style="background-color: #3c3b3b; color: white; border-radius: 5px"
+>
+  <div
+    style="
+      display: grid;
+      place-items: center;
+      background-color: #3c3b3b;
+      text-decoration: none;
+    "
+  >
+    <a
+      style="
+        text-decoration: none;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 10px;
+        list-style: none;
+        color: white;
+      "
+      href="mailto:felixsam922@gmail.com"
+      >Email Us</a
+    >
+  </div>
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item">
+        <a href="/" class="nav-link px-2 text-muted">Home</a>
+      </li>
+      <li class="nav-item">
+        <a href="courses" class="nav-link px-2 text-muted">Courses</a>
+      </li>
+      <li class="nav-item">
+        <a
+          href="https://www.youtube.com/channel/UCYSgyUIpL24MvXCKU8RRcRA/videos"
+          class="nav-link px-2 text-muted"
+          target="_blank"
+          >Tutorials</a
+        >
+      </li>
+      <li class="nav-item">
+        <a href="signin" class="nav-link px-2 text-muted">Message Us</a>
+      </li>
+      <li class="nav-item">
+        <a href="#about" class="nav-link px-2 text-muted">About</a>
+      </li>
+      <li class="nav-item">
+        <a
+          href="http://felixsam10.pythonanywhere.com/blogs"
+          class="nav-link px-2 text-muted"
+          >Blog</a
+        >
+      </li>
+    </ul>
+    <p class="text-center text-muted">&copy; 2023 TECH WATT, Inc</p>
+  </footer>
+</div>
+
+<div style="display: grid; place-items: center">
+  <a
+    style="
+      list-style: none;
+      text-decoration: none;
+      color: gray;
+      font-weight: bold;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    "
+    class="back-to-top"
+    href="#"
+    >back to top</a
+  >
+</div>
+
+{%endblock%}
