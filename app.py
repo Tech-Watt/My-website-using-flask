@@ -6,7 +6,7 @@ from twilio.rest import Client
 
 # twillo settings
 account_sid = "AC39d7673c726845598e97fe0a86117427"
-auth_token = "5c0cdc2927fd3c602fc25408aac62794"
+auth_token = "0bee0ec3b197304e09e7e2ce0e4197e6"
 client = Client(account_sid, auth_token)
 
 # flask configurations
